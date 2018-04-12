@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+<script type="text/javascript">
+
+function change() {
+	
+	
+	//document.getElementById('10').onclick =newFun();
+	
+	var elm=document.getElementById('10');
+	elm.removeAttribute("onclick");
+	
+	elm.setAttribute("onclick", "newFun()");
+	
+	//document.getElementById('10').attribute("onclick",newFun());
+
+
+}
+
+function newFun() {
+	
+	alert("newfun");
+	
+}
+
+
+</script>
+</head>
+<body>
+
+<div id="10" onclick="firstFun()">
+
+fffffff
+
+</div>
+
+<button onclick="change()">ggg</button>
+</body>
+</html>

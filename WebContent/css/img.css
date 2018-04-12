@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.image-upload > input
+{
+    display: none;
+}

@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+.alert{
+    width: auto;
+    padding: 1.5%;
+    background: pink;
+    color: #C00;
+}
